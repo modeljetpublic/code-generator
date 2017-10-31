@@ -18,7 +18,7 @@ package internalversion
 
 import (
 	rest "k8s.io/client-go/rest"
-	"k8s.io/code-generator/_examples/apiserver/clientset/internalversion/scheme"
+	"github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/clientset/internalversion/scheme"
 )
 
 type ExampleInterface interface {

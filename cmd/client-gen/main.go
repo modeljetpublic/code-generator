@@ -25,8 +25,8 @@ import (
 	"github.com/golang/glog"
 	"github.com/spf13/pflag"
 
-	clientgenargs "k8s.io/code-generator/cmd/client-gen/args"
-	"k8s.io/code-generator/cmd/client-gen/generators"
+	clientgenargs "github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/args"
+	"github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/generators"
 	"k8s.io/gengo/args"
 )
 

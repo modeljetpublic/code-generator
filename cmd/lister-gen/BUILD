@@ -8,17 +8,17 @@ load(
 
 go_binary(
     name = "lister-gen",
-    importpath = "k8s.io/code-generator/cmd/lister-gen",
+    importpath = "github.com/modeljetpublic/k8s-code-generator-r18/cmd/lister-gen",
     library = ":go_default_library",
 )
 
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "k8s.io/code-generator/cmd/lister-gen",
+    importpath = "github.com/modeljetpublic/k8s-code-generator-r18/cmd/lister-gen",
     deps = [
         "//vendor/github.com/golang/glog:go_default_library",
-        "//vendor/k8s.io/code-generator/cmd/lister-gen/generators:go_default_library",
+        "//vendor/github.com/modeljetpublic/k8s-code-generator-r18/cmd/lister-gen/generators:go_default_library",
         "//vendor/k8s.io/gengo/args:go_default_library",
     ],
 )
@@ -34,7 +34,7 @@ filegroup(
     name = "all-srcs",
     srcs = [
         ":package-srcs",
-        "//staging/src/k8s.io/code-generator/cmd/lister-gen/generators:all-srcs",
+        "//staging/src/github.com/modeljetpublic/k8s-code-generator-r18/cmd/lister-gen/generators:all-srcs",
     ],
     tags = ["automanaged"],
 )

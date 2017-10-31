@@ -23,7 +23,7 @@ package v1
 import (
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	example "k8s.io/code-generator/_examples/apiserver/apis/example"
+	example "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/apis/example"
 	unsafe "unsafe"
 )
 

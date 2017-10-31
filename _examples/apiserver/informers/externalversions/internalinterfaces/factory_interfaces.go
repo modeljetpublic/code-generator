@@ -21,7 +21,7 @@ package internalinterfaces
 import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	cache "k8s.io/client-go/tools/cache"
-	versioned "k8s.io/code-generator/_examples/apiserver/clientset/versioned"
+	versioned "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/clientset/versioned"
 	time "time"
 )
 

@@ -26,7 +26,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"k8s.io/code-generator/cmd/client-gen/types"
+	"github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/types"
 )
 
 type gvPackagesValue struct {

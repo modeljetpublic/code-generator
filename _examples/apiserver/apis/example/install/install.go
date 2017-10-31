@@ -22,8 +22,8 @@ import (
 	"k8s.io/apimachinery/pkg/apimachinery/announced"
 	"k8s.io/apimachinery/pkg/apimachinery/registered"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/code-generator/_examples/apiserver/apis/example"
-	"k8s.io/code-generator/_examples/apiserver/apis/example/v1"
+	"github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/apis/example"
+	"github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/apis/example/v1"
 )
 
 // Install registers the API group and adds types to a scheme

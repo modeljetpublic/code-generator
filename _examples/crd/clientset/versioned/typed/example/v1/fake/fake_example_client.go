@@ -19,7 +19,7 @@ package fake
 import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1 "k8s.io/code-generator/_examples/crd/clientset/versioned/typed/example/v1"
+	v1 "github.com/modeljetpublic/k8s-code-generator-r18/_examples/crd/clientset/versioned/typed/example/v1"
 )
 
 type FakeExampleV1 struct {

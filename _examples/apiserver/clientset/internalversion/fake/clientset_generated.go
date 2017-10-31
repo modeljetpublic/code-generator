@@ -22,9 +22,9 @@ import (
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	clientset "k8s.io/code-generator/_examples/apiserver/clientset/internalversion"
-	exampleinternalversion "k8s.io/code-generator/_examples/apiserver/clientset/internalversion/typed/example/internalversion"
-	fakeexampleinternalversion "k8s.io/code-generator/_examples/apiserver/clientset/internalversion/typed/example/internalversion/fake"
+	clientset "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/clientset/internalversion"
+	exampleinternalversion "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/clientset/internalversion/typed/example/internalversion"
+	fakeexampleinternalversion "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/clientset/internalversion/typed/example/internalversion/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

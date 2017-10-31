@@ -1,5 +1,5 @@
 {
-	"ImportPath": "k8s.io/code-generator",
+	"ImportPath": "github.com/modeljetpublic/k8s-code-generator-r18",
 	"GoVersion": "go1.8",
 	"GodepVersion": "v79",
 	"Packages": [

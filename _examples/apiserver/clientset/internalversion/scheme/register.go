@@ -23,7 +23,7 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	example "k8s.io/code-generator/_examples/apiserver/apis/example/install"
+	example "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/apis/example/install"
 	os "os"
 )
 

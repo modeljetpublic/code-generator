@@ -8,7 +8,7 @@ load(
 go_library(
     name = "go_default_library",
     srcs = ["path.go"],
-    importpath = "k8s.io/code-generator/cmd/client-gen/path",
+    importpath = "github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/path",
 )
 
 filegroup(

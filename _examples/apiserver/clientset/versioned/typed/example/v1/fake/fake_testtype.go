@@ -23,7 +23,7 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "k8s.io/client-go/testing"
-	example_v1 "k8s.io/code-generator/_examples/apiserver/apis/example/v1"
+	example_v1 "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/apis/example/v1"
 )
 
 // FakeTestTypes implements TestTypeInterface

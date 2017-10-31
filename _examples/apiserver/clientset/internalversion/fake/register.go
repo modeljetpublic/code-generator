@@ -21,7 +21,7 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	exampleinternalversion "k8s.io/code-generator/_examples/apiserver/apis/example"
+	exampleinternalversion "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/apis/example"
 )
 
 var scheme = runtime.NewScheme()

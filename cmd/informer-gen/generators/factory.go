@@ -19,7 +19,7 @@ package generators
 import (
 	"io"
 
-	clientgentypes "k8s.io/code-generator/cmd/client-gen/types"
+	clientgentypes "github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/types"
 	"k8s.io/gengo/generator"
 	"k8s.io/gengo/namer"
 	"k8s.io/gengo/types"

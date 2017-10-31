@@ -23,10 +23,10 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
 	cache "k8s.io/client-go/tools/cache"
-	example "k8s.io/code-generator/_examples/apiserver/apis/example"
-	clientset_internalversion "k8s.io/code-generator/_examples/apiserver/clientset/internalversion"
-	internalinterfaces "k8s.io/code-generator/_examples/apiserver/informers/internalversion/internalinterfaces"
-	internalversion "k8s.io/code-generator/_examples/apiserver/listers/example/internalversion"
+	example "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/apis/example"
+	clientset_internalversion "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/clientset/internalversion"
+	internalinterfaces "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/informers/internalversion/internalinterfaces"
+	internalversion "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/listers/example/internalversion"
 	time "time"
 )
 

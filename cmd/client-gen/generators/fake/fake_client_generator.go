@@ -23,10 +23,10 @@ import (
 	"k8s.io/gengo/generator"
 	"k8s.io/gengo/types"
 
-	clientgenargs "k8s.io/code-generator/cmd/client-gen/args"
-	scheme "k8s.io/code-generator/cmd/client-gen/generators/scheme"
-	"k8s.io/code-generator/cmd/client-gen/generators/util"
-	clientgentypes "k8s.io/code-generator/cmd/client-gen/types"
+	clientgenargs "github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/args"
+	scheme "github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/generators/scheme"
+	"github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/generators/util"
+	clientgentypes "github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/types"
 )
 
 func PackageForGroup(gv clientgentypes.GroupVersion, typeList []*types.Type, clientsetPackage string, inputPackage string, boilerplate []byte) generator.Package {

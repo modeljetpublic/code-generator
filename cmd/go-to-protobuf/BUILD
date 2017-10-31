@@ -8,17 +8,17 @@ load(
 
 go_binary(
     name = "go-to-protobuf",
-    importpath = "k8s.io/code-generator/cmd/go-to-protobuf",
+    importpath = "github.com/modeljetpublic/k8s-code-generator-r18/cmd/go-to-protobuf",
     library = ":go_default_library",
 )
 
 go_library(
     name = "go_default_library",
     srcs = ["main.go"],
-    importpath = "k8s.io/code-generator/cmd/go-to-protobuf",
+    importpath = "github.com/modeljetpublic/k8s-code-generator-r18/cmd/go-to-protobuf",
     deps = [
         "//vendor/github.com/spf13/pflag:go_default_library",
-        "//vendor/k8s.io/code-generator/cmd/go-to-protobuf/protobuf:go_default_library",
+        "//vendor/github.com/modeljetpublic/k8s-code-generator-r18/cmd/go-to-protobuf/protobuf:go_default_library",
     ],
 )
 
@@ -33,8 +33,8 @@ filegroup(
     name = "all-srcs",
     srcs = [
         ":package-srcs",
-        "//staging/src/k8s.io/code-generator/cmd/go-to-protobuf/protobuf:all-srcs",
-        "//staging/src/k8s.io/code-generator/cmd/go-to-protobuf/protoc-gen-gogo:all-srcs",
+        "//staging/src/github.com/modeljetpublic/k8s-code-generator-r18/cmd/go-to-protobuf/protobuf:all-srcs",
+        "//staging/src/github.com/modeljetpublic/k8s-code-generator-r18/cmd/go-to-protobuf/protoc-gen-gogo:all-srcs",
     ],
     tags = ["automanaged"],
 )

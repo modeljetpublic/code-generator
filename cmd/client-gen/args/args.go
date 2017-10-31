@@ -19,7 +19,7 @@ package args
 import (
 	"github.com/spf13/pflag"
 
-	"k8s.io/code-generator/cmd/client-gen/types"
+	"github.com/modeljetpublic/k8s-code-generator-r18/cmd/client-gen/types"
 )
 
 // ClientGenArgs is a wrapper for arguments to client-gen.

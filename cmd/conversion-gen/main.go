@@ -37,7 +37,7 @@ package main
 import (
 	"path/filepath"
 
-	"k8s.io/code-generator/cmd/conversion-gen/generators"
+	"github.com/modeljetpublic/k8s-code-generator-r18/cmd/conversion-gen/generators"
 	"k8s.io/gengo/args"
 
 	"github.com/golang/glog"

@@ -19,7 +19,7 @@ limitations under the License.
 package internalversion
 
 import (
-	internalinterfaces "k8s.io/code-generator/_examples/apiserver/informers/internalversion/internalinterfaces"
+	internalinterfaces "github.com/modeljetpublic/k8s-code-generator-r18/_examples/apiserver/informers/internalversion/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

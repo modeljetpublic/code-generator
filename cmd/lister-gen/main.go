@@ -19,7 +19,7 @@ package main
 import (
 	"path/filepath"
 
-	"k8s.io/code-generator/cmd/lister-gen/generators"
+	"github.com/modeljetpublic/k8s-code-generator-r18/cmd/lister-gen/generators"
 	"k8s.io/gengo/args"
 
 	"github.com/golang/glog"
